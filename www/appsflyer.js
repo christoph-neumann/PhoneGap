@@ -58,9 +58,12 @@ if(!window.CustomEvent) {
 	});
 }(window));
 
+/*
+Example Usage:
+
 document.addEventListener("deviceready", function(){
     var args = [];
-    var devKey = "xxXXXXXxXxXXXXxXXxxxx8";  // your AppsFlyer devKey
+    var devKey = "xxXXXXXxXxXXXXxXXxxxxx";  // your AppsFlyer devKey
     args.push(devKey);
     var userAgent = window.navigator.userAgent.toLowerCase();
                           
@@ -70,4 +73,4 @@ document.addEventListener("deviceready", function(){
     }
 	window.plugins.appsFlyer.initSdk(args);
 }, false);
-
+*/
